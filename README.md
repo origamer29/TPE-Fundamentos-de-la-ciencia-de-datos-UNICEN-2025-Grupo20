@@ -74,22 +74,5 @@ El **Browser**, el **Operating System** y el **Tipo de Tráfico** influyen de ma
 
 ---
 
-## 📦 Instalación de Dependencias
+## 🚀 Instalación y Ejecución
 
-Asegurate de tener Python 3.8+ instalado.  
-Luego ejecutá:
-
-```bash
-pip install -r requirements.txt
-
-
-### 🚀 Ver el Análisis y Ejecutar el Código
-Todo el proceso de limpieza, los tests estadísticos, las visualizaciones y las conclusiones de cada hipótesis se encuentran en el Jupyter Notebook principal:
-
-**TPE.ipynb**
-
-Para ver el informe final consolidado, puedes consultar:
-
-* **Informe_Grupo20.pdf**
-
----
