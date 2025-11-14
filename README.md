@@ -120,15 +120,9 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
    ```
 
 7. 🧑‍💻 **Abrir Jupyter Notebook**  
-   ```bash
-   jupyter notebook
-   ```
-   - Se abrirá en tu navegador 🌐.  
-   - Buscá el archivo `TPE.ipynb` y abrilo.  
+   - Buscá el archivo `TPE.ipynb` y abrilo desde el entorno que uses.  
    - Ejecutá las celdas con **Shift+Enter**.  
-
 ---
-
 ## 🧰 Extra: Ejecutar el notebook desde VSCode
 
 1. 🧩 **Instalar extensiones**  
@@ -136,7 +130,7 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
    - **Jupyter** (Microsoft)
 
 2. 🐍 **Seleccionar intérprete**  
-   - Abrí VSCode en la carpeta del repo.  
+   - Abrí VSCode en la carpeta del repo.
    - Presioná `Ctrl+Shift+P` → “Python: Select Interpreter” → elegí tu entorno virtual `.venv`.
 
 3. 📒 **Abrir el `.ipynb`**  
