@@ -1,12 +1,12 @@
 # TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20
-## 📄 Descripción del Dataset
+## Descripción del Dataset
 
 El dataset contiene **12.330 sesiones**, cada una perteneciente a **un usuario distinto**, registradas durante un período de **1 año**.  
 Esto elimina sesgos ligados a campañas temporales, perfiles de usuario o fechas específicas.
 
 El conjunto incluye:
 
-### 🧮 **10 variables numéricas**
+### **10 variables numéricas**
 - **Administrative**, **Administrative_Duration**  
 - **Informational**, **Informational_Duration**  
 - **ProductRelated**, **ProductRelated_Duration**  
@@ -18,7 +18,7 @@ El conjunto incluye:
 - **SpecialDay**  
   > Proximidad a un evento especial (San Valentín, Día de la Madre, etc.).
 
-### 🔤 **8 variables categóricas**
+### **8 variables categóricas**
 Incluyen:
 - **OperatingSystems**, **Browser**, **Region**  
 - **TrafficType**  
@@ -26,14 +26,14 @@ Incluyen:
 - **Weekend** (True/False)  
 - **Month**
 
-### 🎯 **Variable objetivo**
+### **Variable objetivo**
 - **Revenue** → indica si la sesión terminó en compra (1) o no (0).
 
 Se realizó un proceso de **limpieza, estandarización y creación de nuevas métricas**, como la **tasa de tiempo por visita (Tiempo_Total)** construida a partir de las duraciones por categoría de página.
 
 ---
 
-## 🎓 Objetivo del Proyecto
+## Objetivo del Proyecto
 
 El trabajo busca responder **6 hipótesis planteadas desde una perspectiva de negocio**, utilizando:
 
@@ -52,7 +52,7 @@ El trabajo busca responder **6 hipótesis planteadas desde una perspectiva de ne
 
 ---
 
-## 🧪 Hipótesis Analizadas
+## Hipótesis Analizadas
 
 ### **H1 — Engagement vs. Compra**
 Los usuarios que realizan compras presentan una mayor **tasa de tiempo por visita (Tiempo_Total)** que quienes no compran.
@@ -74,32 +74,33 @@ El **Browser**, el **Operating System** y el **Tipo de Tráfico** influyen de ma
 
 ---
 
-## ⚙️ Instalación y Ejecución del Proyecto
+## Instalación y Ejecución del Proyecto
 
-Para que puedas jugar con nuestro notebook y descubrir todos los secretos del dataset, te dejamos dos caminos:  
-👉 **usar Jupyter Notebook en tu compu** o 👉 **abrirlo directamente en Google Colab**.  
+Para que puedas probar nuestro notebook y descubrir todos los secretos del dataset, te dejamos dos caminos:  
+**usar Jupyter Notebook en tu compu** o también puedes **abrirlo en Google Colab**.  
 ---
 
 ### 💻 Opción A: Ejecutar en Jupyter Notebook (local)
 
-1. 🐍 **Instalar Python (3.9 o superior, recomendamos 3.13)**  
+1. **Instalar Python (3.9 o superior, recomendamos 3.13)**  
    Asegurate de tener Python instalado.
 
-2. 📥 **Clonar el repo**  
+2. **Clonar el repo**  
    ```bash
    git clone https://github.com/origamer29/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20.git
    ```
    ```bash
     cd TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20
     ```
-4. 🎭 **Crear un entorno virtual**  
+3. **Crear un entorno virtual**  
    ```bash
    python3.13 -m venv .venv
    ```
-   Si da error probar:
+   Si esto da error probar:
    ```bash
    py -3.13 -m venv .venv
    ```
+Luego para activar el entorno virtual ejecutar el siguiente comando:
    - En macOS/Linux:  
      ```bash
      source .venv/bin/activate
@@ -108,8 +109,8 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
      ```bash
      .venv\Scripts\activate
      ```
-
-6. 📦 **Instalar dependencias**  
+     
+6. **Instalar dependencias**  
    Si existe `requirements.txt`:  
    ```bash
    pip install -r requirements.txt
@@ -119,25 +120,25 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
    pip install jupyter numpy pandas matplotlib scikit-learn
    ```
 
-7. 🧑‍💻 **Abrir Jupyter Notebook**  
+7. **Abrir Jupyter Notebook**  
    - Buscá el archivo `TPE.ipynb` y abrilo desde el entorno que uses.  
    - Ejecutá las celdas con **Shift+Enter**.  
 ---
-## 🧰 Extra: Ejecutar el notebook desde VSCode
+## Extra: Ejecutar el notebook desde VSCode
 
-1. 🧩 **Instalar extensiones**  
+1. **Instalar extensiones**  
    - **Python** (Microsoft)  
    - **Jupyter** (Microsoft)
 
-2. 🐍 **Seleccionar intérprete**  
+2. **Seleccionar intérprete**  
    - Abrí VSCode en la carpeta del repo.
    - Presioná `Ctrl+Shift+P` → “Python: Select Interpreter” → elegí tu entorno virtual `.venv`.
 
-3. 📒 **Abrir el `.ipynb`**  
+3. **Abrir el `.ipynb`**  
    - Hacé doble clic en `TPE.ipynb` desde el explorador.  
    - En la esquina superior derecha, **seleccioná el kernel** del entorno virtual (ej.: “Python (.venv)”).
 
-4. ▶️ **Ejecutar celdas**  
+4. **Ejecutar celdas**  
    - Usá el botón “Run” o `Shift+Enter`.  
    - Si faltan paquetes, instalalos en el terminal integrado:
      ```bash
@@ -145,7 +146,7 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
      ```
    - Si el notebook usa rutas relativas, asegurate de abrir VSCode desde la **raíz del repo**.
 
-5. 🎯 **Tip útil**  
+5. **Tip útil**  
    - Si el kernel no aparece, instalá el soporte:
      ```bash
      pip install ipykernel
@@ -154,15 +155,15 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
 
 ---
 
-### ☁️ Opción B: Ejecutar en Google Colab
+### Opción B: Ejecutar en Google Colab
 [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/origamer29/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/blob/main/TPE.ipynb)
 1. 🌐 **Abrir Colab** → [Google Colab](https://colab.research.google.com)  
 
-2. 🔗 **Cargar el notebook desde GitHub**  
+2. **Cargar el notebook desde GitHub**  
    - Pega la URL del repo o del `TPE.ipynb`.  
    - Seleccioná el archivo y abrilo.  
 
-3. 📦 **Instalar dependencias dentro del notebook**  
+3. **Instalar dependencias dentro del notebook**  
    - Si hay `requirements.txt`:  
      ```python
      !pip install -r https://raw.githubusercontent.com/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/main/requirements.txt
@@ -172,53 +173,50 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
      !pip install numpy pandas matplotlib scikit-learn
      ```
 
-4. 📂 **Clonar el repo para acceder a datos**  
+4. **Clonar el repo para acceder a datos**  
    ```python
    !git clone https://github.com/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20.git
    %cd TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20
    ```
 
-5. ▶️ **Ejecutar las celdas**  
+5. **Ejecutar las celdas**  
    Usá **Shift+Enter** y disfrutá de los resultados 🎉.  
 
 ---
 
-### 🛠️ Tips y Problemas Comunes
+### Tips y Problemas Comunes
 
-- ❌ **FileNotFoundError** → asegurate de estar en la carpeta correcta (`%cd TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20` en Colab).  
-- 🔄 **Kernel incorrecto en Jupyter** → seleccioná el kernel del entorno virtual creado.  
-- 📦 **Paquetes faltantes** → instalalos con `pip install paquete`.  
-- 🧩 **Versiones incompatibles** → revisá `requirements.txt` y ajustá con `pip install paquete==x.y.z`.  
+- **FileNotFoundError** → asegurate de estar en la carpeta correcta (`%cd TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20` en Colab).  
+- **Kernel incorrecto en Jupyter** → seleccioná el kernel del entorno virtual creado.  
+- **Paquetes faltantes** → instalalos con `pip install paquete`.  
+- **Versiones incompatibles** → revisá `requirements.txt` y ajustá con `pip install paquete==x.y.z`.  
 
 ---
 
-### 🎨 Recomendación de estructura del notebook
+### Recomendación de estructura del notebook
 
 Para mantener el flujo claro y reproducible, sugerimos organizar el notebook en las siguientes secciones:
 
-- 🔧 **Setup inicial**  
+- **Setup inicial**  
   Importaciones de librerías, instalación de dependencias y configuración del entorno.
 
-- 📊 **Carga de datos**  
+- **Carga de datos**  
   Lectura del dataset (`online_shoppers_intention.csv`), verificación de rutas y primeras inspecciones.
 
-- 🧮 **Procesamiento / Limpieza**  
+- **Procesamiento / Limpieza**  
   - Tratamiento de valores faltantes.  
   - Estandarización de variables.  
   - Creación de métricas derivadas (ej.: `Tiempo_Total`).  
 
-- 📈 **Análisis exploratorio (EDA)**  
+- **Análisis exploratorio (EDA)**  
   Visualizaciones (boxplots, heatmaps, scatterplots) y estadísticas descriptivas.
 
-- 🧪 **Tests estadísticos**  
+- **Tests estadísticos**  
   Aplicación de pruebas como Shapiro-Wilk, Levene, Mann-Whitney, Kruskal-Wallis y Chi-cuadrado.
 
-- 📐 **Modelado**  
+- **Modelado**  
   Modelos lineales (OLS) y técnicas de reducción de dimensionalidad (t-SNE, UMAP).
 
-- 🎯 **Conclusiones**  
-  Resumen de hallazgos respecto a las hipótesis planteadas.
-
-- 💾 **Exportación de resultados**  
+- **Exportación de resultados**  
   Guardado de gráficos, tablas o métricas en la carpeta `outputs/` (si se utiliza).
 
