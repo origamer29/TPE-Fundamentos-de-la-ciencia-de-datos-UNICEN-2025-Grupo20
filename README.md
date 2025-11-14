@@ -156,7 +156,7 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
 ---
 
 ### ☁️ Opción B: Ejecutar en Google Colab
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/blob/main/TPE.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/origamer29/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/blob/main/TPE.ipynb)
 1. 🌐 **Abrir Colab** → [Google Colab](https://colab.research.google.com)  
 
 2. 🔗 **Cargar el notebook desde GitHub**  
