@@ -174,5 +174,4 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
 
 ---
 ✨ Con esto ya estás listo para explorar, analizar y divertirte con los datos. ¡Que empiece la ciencia de datos! 🧑‍🔬📊
-```
 
