@@ -82,17 +82,19 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
 
 ### 💻 Opción A: Ejecutar en Jupyter Notebook (local)
 
-1. 🐍 **Instalar Python (3.9 o superior)**  
-   Asegurate de tener Python instalado.  
+1. 🐍 **Instalar Python (3.9 o superior, recomendamos 3.13)**  
+   Asegurate de tener Python instalado.
 
 2. 📥 **Clonar el repo**  
    ```bash
    git clone https://github.com/origamer29/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20.git
-   cd TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20
    ```
-3. 🎭 **Crear un entorno virtual**  
    ```bash
-   python -m venv .venv
+    cd TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20
+    ```
+4. 🎭 **Crear un entorno virtual**  
+   ```bash
+   python3.13 -m venv .venv
    ```
    - En macOS/Linux:  
      ```bash
@@ -103,7 +105,7 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
      .venv\Scripts\activate
      ```
 
-4. 📦 **Instalar dependencias**  
+5. 📦 **Instalar dependencias**  
    Si existe `requirements.txt`:  
    ```bash
    pip install -r requirements.txt
@@ -113,7 +115,7 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
    pip install jupyter numpy pandas matplotlib scikit-learn
    ```
 
-5. 🧑‍💻 **Abrir Jupyter Notebook**  
+6. 🧑‍💻 **Abrir Jupyter Notebook**  
    ```bash
    jupyter notebook
    ```
