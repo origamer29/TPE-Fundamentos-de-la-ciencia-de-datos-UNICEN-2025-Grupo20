@@ -96,6 +96,10 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
    ```bash
    python3.13 -m venv .venv
    ```
+   Si da error probar:
+   ```bash
+   py -3.13 -m venv .venv
+   ```
    - En macOS/Linux:  
      ```bash
      source .venv/bin/activate
@@ -105,7 +109,7 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
      .venv\Scripts\activate
      ```
 
-5. 📦 **Instalar dependencias**  
+6. 📦 **Instalar dependencias**  
    Si existe `requirements.txt`:  
    ```bash
    pip install -r requirements.txt
@@ -115,7 +119,7 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
    pip install jupyter numpy pandas matplotlib scikit-learn
    ```
 
-6. 🧑‍💻 **Abrir Jupyter Notebook**  
+7. 🧑‍💻 **Abrir Jupyter Notebook**  
    ```bash
    jupyter notebook
    ```
