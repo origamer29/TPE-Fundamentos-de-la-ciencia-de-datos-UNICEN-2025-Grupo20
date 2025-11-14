@@ -87,7 +87,7 @@ Para que puedas jugar con nuestro notebook y descubrir todos los secretos del da
 
 2. 📥 **Clonar el repo**  
    ```bash
-   git clone [https://github.com/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20.git](https://github.com/origamer29/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20.git)
+   $ git clone https://github.com/origamer29/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20.git
    cd TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20
    ```
 3. 🎭 **Crear un entorno virtual**  
