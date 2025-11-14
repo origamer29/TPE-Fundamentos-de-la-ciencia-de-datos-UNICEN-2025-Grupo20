@@ -74,5 +74,105 @@ El **Browser**, el **Operating System** y el **Tipo de Tráfico** influyen de ma
 
 ---
 
-## 🚀 Instalación y Ejecución
+## ⚙️ Instalación y Ejecución del Proyecto
+
+Para que puedas jugar con nuestro notebook y descubrir todos los secretos del dataset, te dejamos dos caminos:  
+👉 **usar Jupyter Notebook en tu compu** o 👉 **abrirlo directamente en Google Colab**.  
+
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tu-usuario/tu-repo/blob/main/tu_notebook.ipynb)
+
+---
+
+### 💻 Opción A: Ejecutar en Jupyter Notebook (local)
+
+1. 🐍 **Instalar Python (3.9 o superior)**  
+   Asegurate de tener Python instalado.  
+
+2. 📥 **Clonar el repo**  
+   ```bash
+   git clone https://github.com/tu-usuario/tu-repo.git
+   cd tu-repo
+   ```
+
+3. 🎭 **Crear un entorno virtual**  
+   ```bash
+   python -m venv .venv
+   ```
+   - En macOS/Linux:  
+     ```bash
+     source .venv/bin/activate
+     ```
+   - En Windows:  
+     ```bash
+     .venv\Scripts\activate
+     ```
+
+4. 📦 **Instalar dependencias**  
+   Si existe `requirements.txt`:  
+   ```bash
+   pip install -r requirements.txt
+   ```
+   Si no, instalá Jupyter y los paquetes básicos:  
+   ```bash
+   pip install jupyter numpy pandas matplotlib scikit-learn
+   ```
+
+5. 🧑‍💻 **Abrir Jupyter Notebook**  
+   ```bash
+   jupyter notebook
+   ```
+   - Se abrirá en tu navegador 🌐.  
+   - Buscá el archivo `.ipynb` y abrilo.  
+   - Ejecutá las celdas con **Shift+Enter**.  
+
+---
+
+### ☁️ Opción B: Ejecutar en Google Colab
+
+1. 🌐 **Abrir Colab** → [Google Colab](https://colab.research.google.com)  
+
+2. 🔗 **Cargar el notebook desde GitHub**  
+   - Pega la URL del repo o del `.ipynb`.  
+   - Seleccioná el archivo y abrilo.  
+
+3. 📦 **Instalar dependencias dentro del notebook**  
+   - Si hay `requirements.txt`:  
+     ```python
+     !pip install -r https://raw.githubusercontent.com/tu-usuario/tu-repo/main/requirements.txt
+     ```
+   - O instalá manualmente:  
+     ```python
+     !pip install numpy pandas matplotlib scikit-learn
+     ```
+
+4. 📂 **Clonar el repo para acceder a datos**  
+   ```python
+   !git clone https://github.com/tu-usuario/tu-repo.git
+   %cd tu-repo
+   ```
+
+5. ▶️ **Ejecutar las celdas**  
+   Usá **Shift+Enter** y disfrutá de los resultados 🎉.  
+
+---
+
+### 🛠️ Tips y Problemas Comunes
+
+- ❌ **FileNotFoundError** → asegurate de estar en la carpeta correcta (`%cd tu-repo` en Colab).  
+- 🔄 **Kernel incorrecto en Jupyter** → seleccioná el kernel del entorno virtual creado.  
+- 📦 **Paquetes faltantes** → instalalos con `pip install paquete`.  
+- 🧩 **Versiones incompatibles** → revisá `requirements.txt` y ajustá con `pip install paquete==x.y.z`.  
+
+---
+
+### 🎨 Recomendación de estructura del notebook
+
+- 🔧 **Setup inicial** → importaciones y dependencias.  
+- 📊 **Carga de datos** → rutas claras y validaciones.  
+- 🧮 **Procesamiento/Modelado** → pasos ordenados y comentados.  
+- 📈 **Visualización/Exportación** → gráficos y resultados en `outputs/`.  
+
+---
+✨ Con esto ya estás listo para explorar, analizar y divertirte con los datos. ¡Que empiece la ciencia de datos! 🧑‍🔬📊
+```
 
