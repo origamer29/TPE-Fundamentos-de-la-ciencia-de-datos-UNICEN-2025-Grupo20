@@ -163,23 +163,28 @@ Luego para activar el entorno virtual ejecutar el siguiente comando:
    - Pega la URL del repo o del `TPE.ipynb`.  
    - Seleccioná el archivo y abrilo.  
 
-3. **Instalar dependencias dentro del notebook**  
+3. **Instalar dependencias dentro del notebook**
+   Agregar un bloque de codigo para instalar las dependencias necesarias en el entorno segun el caso:
    - Si hay `requirements.txt`:  
      ```python
-     !pip install -r !pip install -r https://raw.githubusercontent.com/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/main/requirements.txt
+     !pip install -r https://raw.githubusercontent.com/origamer29/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/refs/heads/main/requirements.txt
      ```
    - O instalá manualmente:  
      ```python
      !pip install ydata-profiling
      ```
 
-4. **Clonar el repo para acceder a datos**  
+5. **Clonar el repo para acceder a datos**
+   Agrega otro bloque de codigo despues del anterior, con el siguiente comando para clonar el repositorio:
    ```python
-   !git clone https://github.com/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20.git
-   %cd TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20
+   !git clone https://github.com/origamer29/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20.git
+   ```
+   Luego, agregamos otro bloque para pararnos en la carpeta del proyecto:
+   ```python
+    %cd /content/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20
    ```
 
-5. **Ejecutar las celdas**  
+7. **Ejecutar las celdas**  
    Usá **Shift+Enter** y disfrutá de los resultados 🎉.  
 
 ---
