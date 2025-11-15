@@ -166,11 +166,11 @@ Luego para activar el entorno virtual ejecutar el siguiente comando:
 3. **Instalar dependencias dentro del notebook**  
    - Si hay `requirements.txt`:  
      ```python
-     !pip install -r https://raw.githubusercontent.com/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/main/requirements.txt
+     !pip install -r !pip install -r https://raw.githubusercontent.com/TPE-Fundamentos-de-la-ciencia-de-datos-UNICEN-2025-Grupo20/main/requirements.txt
      ```
    - O instalá manualmente:  
      ```python
-     !pip install numpy pandas matplotlib scikit-learn
+     !pip install ydata-profiling
      ```
 
 4. **Clonar el repo para acceder a datos**  
