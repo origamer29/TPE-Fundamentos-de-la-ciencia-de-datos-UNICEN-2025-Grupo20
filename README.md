@@ -80,7 +80,7 @@ Para que puedas probar nuestro notebook y descubrir todos los secretos del datas
 **usar Jupyter Notebook en tu compu** o también puedes **abrirlo en Google Colab**.  
 ---
 
-### 💻 Opción A: Ejecutar en Jupyter Notebook (local)
+### Opción A: Ejecutar en Jupyter Notebook (local)
 
 1. **Instalar Python (3.9 o superior, recomendamos 3.13)**  
    Asegurate de tener Python instalado.
